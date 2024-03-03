@@ -207,8 +207,20 @@ a {
     border: 1px solid #5fe2ff;
     background-color: #F4FDFF;
 }
-
-
+/* Perfect Place */
+.perfect-place{
+    display: flex;
+    gap: 10px;
+}
+.perfect-place-info>h1{
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+.perfect-place-list{
+    color: black;
+    padding-left: 25px;
+    margin: 20px 0px;
+}
 
 
 
@@ -231,6 +243,10 @@ a {
     width: 60%;
     position: relative;
 }
+
+.newsletter-img-width>img{
+    width: 100%;
+}
 .discount-cart{
     height: 60px;
     width: 200px;
@@ -240,13 +256,10 @@ a {
     border-radius: 5px;
     text-align: center;
     padding: 10px;
-    bottom: 14%;
-    right: -3%;
+    bottom: 15%;
+    right: 1%;
     transform: rotate(-30deg);
 
-}
-.newsletter-content-width>img{
-    width: 100%;
 }
 .newsletter-info{
     border: 1px solid #FF5400;
