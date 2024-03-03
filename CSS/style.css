@@ -80,7 +80,7 @@ a {
 
 /* banner */
 .banner {
-    background-image: linear-gradient(rgba(31, 30, 30, 0.767), rgba(255, 255, 255, 0)), url(Images/banner.png);
+    background-image: linear-gradient(rgba(31, 30, 30, 0.767), rgba(255, 255, 255, 0)), url(/Images/banner.png);
     background-size: cover;
     border-radius: 13px;
     padding: 100px;
@@ -217,7 +217,7 @@ a {
     padding: 20px 0px;
 }
 .deals-section-info>h1{
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 .deals-cart-container{
     color: #424247;
@@ -233,7 +233,7 @@ a {
 }
 
 .deals-cart{
-    background-image: url(Images/discount-cart-1.png);
+    background-image: url(/Images/discount-cart-1.png);
     background-repeat: no-repeat;
     margin-bottom: 15px;
     display: flex;
@@ -242,7 +242,7 @@ a {
 
 }
 .deals-cart-2{
-    background-image: url(Images/discount-cart-2.png);
+    background-image: url(/Images/discount-cart-2.png);
     background-repeat: no-repeat;
     margin-bottom: 15px;
       background-size: 100% 100%;
@@ -270,6 +270,8 @@ a {
 .perfect-place{
     display: flex;
     gap: 10px;
+    justify-content: center;
+    align-items: center;
 }
 .perfect-place-info>h1{
     font-size: 2.5rem;
@@ -278,7 +280,7 @@ a {
 .perfect-place-list{
     color: black;
     padding-left: 25px;
-    margin: 20px 0px;
+    margin: 35px 0px;
 }
 
 
@@ -286,6 +288,8 @@ a {
 .newsletter{
     display: flex;
     gap: 2%;
+    justify-content: center;
+    align-items: center;
 }
 .newsletter-content-width{
     width: 38%;
@@ -383,3 +387,30 @@ footer hr {
 .footer-copyright {
     padding: 20px 0px 100px 0px
 }
+
+
+/* bonus section */
+.review-container{
+    display: flex;
+    gap: 20px;
+
+}
+.review{
+    border: 1px solid #FF5400;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.review>h2{
+    font-size: 2rem;
+}
+.review>a{
+    color: red;
+    padding: 30px 0px;
+    font-size: 25px;
+}
+.review-star{
+    color: #FF5400;
+    font-size: 20px;
+}
+    
