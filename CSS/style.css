@@ -110,3 +110,30 @@ nav{
 .popular-tour-section>div>ul>li{
     padding-bottom: 10px;
 }
+/* Destination section */
+.destination-info{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+.destination-info>h1{
+    font-size: 3.5rem;
+}
+.row{
+    display: flex;
+    gap: 20px;
+    margin-top: 15px;
+}
+.row>div>img{
+    width: 100%;
+}
+.img-container{
+    position: relative;
+    color:white;
+}
+.img-container>h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
