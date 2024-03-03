@@ -210,6 +210,15 @@ a {
 
 /* Deals & Discount 
 */
+.deals-section-info{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0px;
+}
+.deals-section-info>h1{
+    font-size: 2rem;
+}
 .deals-cart-container{
     color: #424247;
     margin-bottom: 20px;
@@ -225,23 +234,25 @@ a {
 
 .deals-cart{
     background-image: url(/Images/discount-cart-1.png);
-    background-size: cover;
     background-repeat: no-repeat;
-    height: 100%;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: flex-end;
+      background-size: 100% 100%;
 
 }
 .deals-cart-2{
     background-image: url(/Images/discount-cart-2.png);
-    background-size: cover;
     background-repeat: no-repeat;
-
+    margin-bottom: 15px;
+      background-size: 100% 100%;
 }
 .deals-cart-info{
     background-color: rgba(255, 255, 255, 0.658);
     width: 40%;
     padding: 35px;
     border-radius: 10px;
-    margin: 100px;
+    margin: 50px;
     display: inline-block;
 }
 .cart-info{
