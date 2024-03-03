@@ -229,6 +229,21 @@ a {
 }
 .newsletter-img-width{
     width: 60%;
+    position: relative;
+}
+.discount-cart{
+    height: 60px;
+    width: 200px;
+    position: absolute;
+    background-color: #FF5400;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    bottom: 14%;
+    right: -3%;
+    transform: rotate(-30deg);
+
 }
 .newsletter-content-width>img{
     width: 100%;
