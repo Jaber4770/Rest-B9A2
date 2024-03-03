@@ -138,7 +138,7 @@ a {
 }
 
 /* Destination section */
-.destination-info>h1 {
+.destination-title {
     font-size: 3.5rem;
 }
 
@@ -207,6 +207,63 @@ a {
     border: 1px solid #5fe2ff;
     background-color: #F4FDFF;
 }
+
+/* Deals & Discount 
+*/
+.deals-cart-container{
+    color: #424247;
+    margin-bottom: 20px;
+}
+.deals-cart-container>div>div>h1{
+    color: black;
+    padding: 15px 0px;
+    font-size: 1.8rem;
+}
+.deals-cart-container>div>div>h3{
+    padding: 15px 0px;
+}
+
+.deals-cart{
+    background-image: url(/Images/discount-cart-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+
+}
+.deals-cart-2{
+    background-image: url(/Images/discount-cart-2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.deals-cart-info{
+    background-color: rgba(255, 255, 255, 0.658);
+    width: 40%;
+    padding: 35px;
+    border-radius: 10px;
+    margin: 100px;
+    display: inline-block;
+}
+.cart-info{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+
+}
+.cart-info>p>i{
+    color: #FF5400;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
 /* Perfect Place */
 .perfect-place{
     display: flex;
@@ -221,14 +278,6 @@ a {
     padding-left: 25px;
     margin: 20px 0px;
 }
-
-
-
-
-
-
-
-
 
 
 /* NewsLetter */
