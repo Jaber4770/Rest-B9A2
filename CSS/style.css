@@ -29,7 +29,12 @@ section, header{
     padding: 10px 20px;
     cursor: pointer;
 }
- 
+.section-info{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
 
 
 /* nav style */
@@ -111,11 +116,6 @@ nav{
     padding-bottom: 10px;
 }
 /* Destination section */
-.destination-info{
-    width: 70%;
-    margin: 0 auto;
-    text-align: center;
-}
 .destination-info>h1{
     font-size: 3.5rem;
 }
@@ -123,17 +123,55 @@ nav{
     display: flex;
     gap: 20px;
     margin-top: 15px;
+    justify-content: center;
 }
-.row>div>img{
-    width: 100%;
-}
+
 .img-container{
     position: relative;
     color:white;
+}
+.img-container>img{
+    width: 100%;
 }
 .img-container>h1{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+/* why Choose Us */
+
+.choose-title{
+    font-size: 2.5rem;
+}
+.choose-reason-1{
+    display: flex;
+}
+.choose-reason-2{
+    display: flex;
+    justify-content: center;
+}
+.choose-box{
+     padding: 20px;
+     border-radius: 5px;
+     margin: 10px;
+     height: 45%;
+     width: 45%;
+}
+.choose-box>h2{
+    padding: 10px 0px;
+}
+.box-1{
+    border: 1px solid #ffb368;
+    background-color: #FFFBF7;
+}
+.box-2{
+    border: 1px solid #ff6a6a;
+    background-color: #FEF6F6;
+}
+.box-3{
+    
+    border: 1px solid #5fe2ff;
+    background-color: #F4FDFF;
 }
