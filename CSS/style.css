@@ -442,7 +442,7 @@ footer hr {
 
 /* Responsive for Small Device 
 */
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 600px) {
 
     /* shared style */
     .small-device-width{
